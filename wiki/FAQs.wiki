@@ -1,11 +1,11 @@
+#summary Frequently asked questions regarding implementing the cropper
 #labels Featured
+
 = Introduction =
 This section covers any frequently asked questions, I will slowly build this list up as I see regular questions arise.
 
-= Details =
-
-==1. How do I save the cropped image?==
-The JavaScript Image Cropper UI is simply a JavaScript interface to allow a user to select the area of an image they wish to crop. Physically cropping and saving the image is beyond the abilities of JavaScript and should be performed server side, this usually works in the following process:
+=1. How do I save the cropped image?=
+The JavaScript Image Cropper UI is simply a JavaScript interface to allow a user to select the area of an image they wish to crop. Physically cropping and saving the image is beyond the abilities of JavaScript and should be performed server-side, this usually works in the following process:
 
   # User uploads image
   # Cropper is displayed
@@ -13,9 +13,19 @@ The JavaScript Image Cropper UI is simply a JavaScript interface to allow a user
   # Server crops and saves the image (may also resize - e.g. for a fixed size avatar)
   # Present user with the cropped and saved image
 
-There are some 3rd party server side implementations that work with the JavaScript Image Cropper:
+==3rd Party Server-Side Implementations==
+
+There are some 3rd party server-side implementations that work with the JavaScript Image Cropper:
 
 *PHP:*
   * [http://www.theatons.com/blog/2007/10/07/php-js-image-cropper/ http://www.theatons.com/blog/2007/10/07/php-js-image-cropper/]
  
 (Note if you have a server side implementation of the cropper which not listed above please contact us via the [http://groups.google.com/group/javascript-image-cropper-ui Google Group]
+
+=2. How do I prevent the user from re-sizing the cropper=
+
+You can prevent a user from re-sizing the cropper on either a single or both axes by setting the min dimension & max dimension to the same value - this will make the cropper not display the appropriate resize handles, e.g.:
+
+  * Set `minWidth` and `maxWidth` to same value and the user will not be able to change the width.
+  * Set `minHeight` and `maxHeight` to the same value and the user will not be able to change the height.
+  * Do both of the above and the user will not be able to resize the cropper at all.
