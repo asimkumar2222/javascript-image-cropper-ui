@@ -1,6 +1,6 @@
 #labels Featured
 = Introduction =
-This section covers any frequently asked questions.
+This section covers any frequently asked questions, I will slowly build this list up as I see regular questions arise.
 
 = Details =
 
