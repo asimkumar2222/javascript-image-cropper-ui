@@ -1,6 +1,4 @@
-#summary FAQs
 #labels Featured
-
 = Introduction =
 This section covers any frequently asked questions.
 
