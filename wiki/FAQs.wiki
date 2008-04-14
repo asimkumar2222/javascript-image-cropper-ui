@@ -23,6 +23,8 @@ There are some 3rd party server-side implementations that work with the JavaScri
  
 (Note if you have a server side implementation of the cropper which not listed above please contact us via the [http://groups.google.com/group/javascript-image-cropper-ui Google Group]
 
+ 
+
 =2. How do I prevent the user from re-sizing the cropper=
 
 You can prevent a user from re-sizing the cropper on either a single or both axes by setting the min dimension & max dimension to the same value - this will make the cropper not display the appropriate resize handles, e.g.:
