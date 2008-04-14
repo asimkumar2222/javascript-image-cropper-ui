@@ -19,6 +19,7 @@ There are some 3rd party server-side implementations that work with the JavaScri
 
 *PHP:*
   * [http://www.theatons.com/blog/2007/10/07/php-js-image-cropper/ http://www.theatons.com/blog/2007/10/07/php-js-image-cropper/]
+  * [http://mondaybynoon.com/2007/12/17/crop-and-resize-images-with-gd-or-imagemagick-v11/ http://mondaybynoon.com/2007/12/17/crop-and-resize-images-with-gd-or-imagemagick-v11/]
  
 (Note if you have a server side implementation of the cropper which not listed above please contact us via the [http://groups.google.com/group/javascript-image-cropper-ui Google Group]
 
