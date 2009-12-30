@@ -18,6 +18,7 @@ The JavaScript Image Cropper UI is simply a JavaScript interface to allow a user
 There are some 3rd party server-side implementations that work with the JavaScript Image Cropper:
 
 *PHP:*
+  * [http://www.londatiga.net/it/how-to-crop-image-using-javascript-and-PHP/ Tutorial for using with PHP (30th Dec 2009)]
   * [http://www.theatons.com/php-js-image-cropper http://www.theatons.com/php-js-image-cropper]
   * [http://mondaybynoon.com/2007/12/17/crop-and-resize-images-with-gd-or-imagemagick-v11/ http://mondaybynoon.com/2007/12/17/crop-and-resize-images-with-gd-or-imagemagick-v11/]
 
