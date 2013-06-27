@@ -39,3 +39,7 @@ You can prevent a user from re-sizing the cropper on either a single or both axe
   * Set `minWidth` and `maxWidth` to same value and the user will not be able to change the width.
   * Set `minHeight` and `maxHeight` to the same value and the user will not be able to change the height.
   * Do both of the above and the user will not be able to resize the cropper at all.
+
+=3. How do I crop a very large image=
+
+The best way to crop a very large image is to reduce the size of the image before cropping (e.g. from 2048x2048 to 600x600) and present the resized image to the user for cropping. Then for best results you'd translate the crop co-ordinates from the small size and use the original as the source for the actual cropping to be performed (for the above example you'd multiple all crop the dimensions by 3.413333333).
